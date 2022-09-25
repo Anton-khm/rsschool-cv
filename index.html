@@ -3,101 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Resume</title>
-	<style>
-	  .block1 {
-		text-align: center;
-		color: black;
-		background-color: #FDFDFD; 
-		padding: 5px;
-		background-image: url("https://github.com/Anton-khm/rsschool-cv/blob/rsschool-cv-html/Magic Keyboard.jpg");
-	  }
-	  .block2 {
-		color: white;
-        padding: 20px;
-		text-indent: -50%;
-	  }
-	  .img {
-	    position: absolute;
-        top: 5%;
-	    right: 40%;
-	  }
-	  .block7 {
-        margin: 0;
-        background: yellow;
-        position: absolute;
-        top: 60%;
-	    right: 47%;
-      }
-      .block4 {
-	    margin: 0;
-        background: yellow;
-        position: absolute;
-        top: 35%;
-	  }
-      .block5 {
-	    margin: 0;
-        background: yellow;
-        position: absolute;
-        top: 60%;
-	    right: 15%;
-	  }
-	  .block6 {
-	    margin: 0;
-        background: yellow;
-        position: absolute;
-        top: 35%;
-	    right: 47%;
-	  }
-	  .block8 {
-	    margin: 0;
-        background: yellow;
-        position: absolute;
-        top: 35%;
-	    right: 1%;
-	  }
-	  .block9 {
-	    margin: 0;
-        background: yellow;
-        position: absolute;
-        top: 110%;
-	    right: 35%;
-	  }
-	  .table1 {
-	    position: absolute;
-	    top: 10%;
-	    right: 15%;
-		color: white;
-		text-align: left;
-	  }
-	</style>
+	<link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-  <div class="block1">
-    <header>
-	  <div class="block2">
-	  <h1>Anton</h1>
-	  <h1>Khmialeuski</h1>
-	  <p>Junior Frontend Developer</p>
-	  <img class="img" src="https://github.com/Anton-khm/rsschool-cv/blob/rsschool-cv-html/photo.jpeg" height="250" width="250" >
-	  </div>
-	  <div class="table1">
-	    <table>
-		<tr>
-		  <td>Mobile: +375-33-314-55-62</td>
-		</tr>
-		<tr>
-		  <td>E-mail: anton.khmialeuski@gmail.com</td>
-		</tr>
-		<tr>
-		  <td>Skype: Anton.Khmialeuski</td>
-		</tr>
-		<tr>
-		  <td>Telegram: <a href="https://t.me/AntonKhmialeuski">Anton Khmialeuski</a></td>
-		</tr>
-		</table>
-	  </div>
+  <div class="wrapper">
+    <header class="header">
+	    <div class="block2">
+		    <h1>Anton</h1>
+		    <h1>Khmialeuski</h1>
+		    <p>Junior Frontend Developer</p>
+		    <img class="img" src="https://github.com/Anton-khm/rsschool-cv/blob/rsschool-cv-html/photo.jpeg" height="250" width="250" >
+	    </div>
+	    <div class="table1">
+		    <table>
+			    <tr>
+				    <td>Mobile: +375-33-314-55-62</td>
+			    </tr>
+			    <tr>
+				    <td>E-mail: anton.khmialeuski@gmail.com</td>
+			    </tr>
+			    <tr>
+				    <td>Skype: Anton.Khmialeuski</td>
+			    </tr>
+			    <tr>
+				    <td>Telegram: <a href="https://t.me/AntonKhmialeuski">Anton Khmialeuski</a></td>
+			    </tr>
+		    </table>
+	    </div>
 	</header>
-    <section>
+	  <main class="main">
+	  <section>
 	  <div class="block4">
 	  <h4>Summary</h4>
 	  <ul>
@@ -114,7 +49,7 @@
 	<section>
 	  <div class="block6">
 	  <h4>Professional Skills</h4>
-	  <table align: center; cellpadding="7"  width="100px" bordercolor="black">
+	  <table align: center;>
 	    <tr>
 		  <td>JS</td>
 		  <td>HTML5</td>
@@ -136,7 +71,7 @@
     <section>
 	  <div class="block7">
 	  <h4>Work Experience</h4>
-	    <table cellspacing="0" cellpadding="7" border-spacing: 20px; width="700px">
+	    <table border-spacing: 20px;>
 		  <tr>
 		    <td><p>Public Transport Company</p>
 			<p>Radio Engineer</p>
@@ -169,7 +104,7 @@
 	<section>
 	  <div class="block8">
 	  <h4>Education</h4>
-	  <table cellspacing="0" cellpadding="7" border-spacing: 20px; width="600px">
+	  <table border-spacing: 20px;>
 	    <tr>
 		  <td>Belarusian State University of Informatics and Radioelectronics 2017 - 2019</td>
 		  <td>Master`s degree, Information radio technologies</td>
@@ -184,7 +119,7 @@
 	<section>
 	  <div class="block5">
 	  <h4>Certificates</h4>
-	  <table cellspacing="0" cellpadding="7" border-spacing: 20px; width="400px">
+	  <table border-spacing: 20px;>
 	    <tr>
 		  <td>2020</td>
 		  <td>The Rolling Scopes Frontend Developer</td>
@@ -203,15 +138,16 @@
 	  </table>
 	  </div>
 	</section>
-    <footer>
+		  </main>
+    <footer class="footer">
 	  <div class="block9">
 	  <h4>Additional Information</h4>
 	  <p>I am 24 years old.</p>
 	  <p>I prefer a healthy lifestyle like doing sports, biking and so on.</p>
 	  <p>I am free of the bad habits.</p>
 	  <p>Have a military card.</p>
+		  </div>
 	</footer>
-	</div>
-	</div>
+	  </div>
   </body>
 </html>
