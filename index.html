@@ -30,9 +30,9 @@
         <div class="container main-container">
             <section class="section section-profile" id="profile">
                 <img class="section-profile-logo" src="./assets/img/photo.jpeg" alt="cv_photo" height="250" width="250">
-                <div>
-                    <h1>Anton Khmialeuski</h1>
-                    <h3>Junior Frontend Developer</h3>
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Anton Khmialeuski</h1>
+                    <h3 class="section-subtitle">Junior Frontend Developer</h3>
                 </div>
             </section>
             <section class="section" id="contacts">
@@ -49,20 +49,35 @@
             </section>
             <section class="section" id="summary">
                 <h2 class="section-title">Summary</h2>
-                <p>I am a professional with experience in web development</p>
+                <p>I am a beginner developer with basic knowledge of programming.
+                    Have more than 2 years of quality assurance experience in all phases and aspects of the software
+                    design lifecycle.
+                    Self-starter, detail oriented, hardworking, organized and fast learner.</p>
             </section>
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
                 <ul class="section-list">
-                    <li class="section-item">Web: <span>JS, HTML5, CSS3</span></li>
-                    <li class="section-item">Frameworks and libraries: <span>React</span></li>
+                    <li class="section-item">Programming languages: <span>JS</span></li>
+                    <li class="section-item">Database: <span>MySQL, Microsoft SQL, PostgreSQL</span></li>
                     <li class="section-item">Version Control: <span>Git, Github</span></li>
-                    <li class="section-item">Other: <span>HTTPS, JIRA, Postman</span></li>
+                    <li class="section-item">Bug Tracking System: <span>JIRA, Trello</span></li>
+                    <li class="section-item">Internet Technologies: <span>HTTP/S, HTML, CSS, XML, JSON</span></li>
+                    <li class="section-item">Testing Tools: <span>Postman, DevTools</span></li>
+                    <li class="section-item">Modelling: <span>Figma, Abstract</span></li>
+                    <li class="section-item">Command line: <span>PowerShell, Bash</span></li>
                 </ul>
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
-
+                <pre class="pre">
+                    <code>
+    function highAndLow(numbers) {
+    numbers = numbers.split(" ");
+    console.log(Math.max(...numbers) + " " 
+    + Math.min(...numbers))
+    }
+                    </code>
+            </pre>
             </section>
             <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
@@ -74,15 +89,19 @@
             </section>
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item">Gihub: <a href="https://github.com/Anton-khm?tab=repositories"
+                            title="github">https://github.com/Anton-khm</a></li>
+                </ul>
             </section>
-            <section class="section" id="education">
+            <section class="section section-education" id="education">
                 <h2 class="section-title">Education</h2>
                 <ul class="section-list">
                     <li class="section-item">Belarusian State University of Informatics and Radioelectronics 2017 -
                         2019: <span>Master`s degree, Information radiotechnologies</span></li>
                 </ul>
             </section>
-            <section class="section" id="languages">
+            <section class="section section-languages" id="languages">
                 <h2 class="section-title">Languages</h2>
                 <ul class="section-list">
                     <li class="section-item"><span>English - Intermediate+</span></li>
@@ -98,7 +117,6 @@
                 © 2023
                 <a href="https://github.com/Anton-khm" class="github nav-link">anton-khm</a>
             </div>
-
             <a href="https://rs.school/js/" class="rss"></a>
         </div>
     </footer>
